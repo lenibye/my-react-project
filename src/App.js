@@ -1,12 +1,14 @@
 import './App.css';
+import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>The Weather Project</h1>
+        <h1>My Weather Project</h1>
+<Weather />
         <footer>
-         <a href="www.github.com"> Open-source code project</a> by Marlene Bay
+         <a href="https://github.com/"> Open-source code project</a> by Marlene Bay
         </footer>
       
       </div>
